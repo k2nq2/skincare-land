@@ -1,0 +1,21 @@
+footer {
+    padding-top: 8rem;
+    padding-bottom: 4.5rem;
+}
+footer img{
+    width: 11.75rem;
+    height: 4.1rem;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    margin-bottom: 4.6rem;
+}
+footer p{
+    color: #fff;
+    font-family: var(--font-family);
+font-weight: 300;
+font-size: 1.6rem;
+line-height: 156%;
+text-align: center;
+color: #fff;
+}

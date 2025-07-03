@@ -1,0 +1,465 @@
+:root {
+    --second-family: "Forum", sans-serif;
+    --font-family: "Helvetica Neue", sans-serif;
+    --third-family: "Bebas Neue", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    transition: all 0.25s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+a {
+    display: contents;
+    color: inherit;
+    text-decoration-line: inherit;
+}
+
+ul {
+    list-style-type: none;
+}
+
+html {
+    scroll-behavior: smooth;
+    font: 400 2.3364485981vw/1.33 var(--font-family), sans-serif;
+    font-weight: 400;
+    line-height: 2rem;
+    color: #fff;
+}
+
+
+@media (min-width: 428px) {
+    html {
+        font: 400 10px var(--font-family), sans-serif;
+    }
+    body{
+        
+    }
+}
+
+body {
+    background: #000;
+    margin: 0 auto;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 143%;
+    max-width: 428px;
+}
+
+h1 {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 11rem;
+    line-height: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+}
+
+section {
+    padding-top: 8rem;
+}
+
+.container {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    margin: 0 auto;
+}
+
+.full-width {
+    margin-left: -4.6rem;
+    padding-left: 4.6rem;
+    padding-right: 4.6rem;
+    width: calc(100% + 9.2rem);
+}
+
+.title {
+font-family: var(--font-family);
+font-weight: 300;
+font-size: 4rem;
+line-height: 105%;
+text-transform: uppercase;
+text-align: center;
+color: #fff;
+}
+
+.subtitle {
+font-family: var(--font-family);
+font-weight: 500;
+font-size: 1.6rem;
+line-height: 125%;
+letter-spacing: 0.08em;
+text-transform: uppercase;
+text-align: center;
+color: #dfecfb;
+    margin-bottom: 5.6rem;
+}
+
+.btn-link {
+    display: inline-block;
+    width: 100%;
+    /* height: 9.5rem; */
+    margin: 0 auto;
+}
+
+.btn {
+    width: 100%;
+    height: 8.8rem;
+    position: relative;
+    display: block;
+}
+
+.btn img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.btn p {
+    position: relative;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 1.3rem;
+    line-height: 138%;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #8b7950;
+}
+
+.btn1 {
+    margin: 1rem 0 7.2rem 0;
+}
+
+.underline {
+    text-decoration-line: underline !important;
+    display: inline-block;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.accent {
+    font-weight: 600;
+}
+
+#shadow-host-companion {
+    padding: 0 !important;
+}
+
+.bg1 {
+    background-image: url(../images/bg1.jpg);
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.bg2 {
+    background-image: url(../images/bg2.jpg);
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.fixed-btn {
+    z-index: 10;
+    position: fixed;
+    bottom: -0.3rem;
+    transform: translate(-50%);
+    left: 50%;
+    width: 100%;
+    padding: 1.7rem 2.4rem 2rem 2.4rem;
+    max-width: 428px;
+    transition: 0.3s ease-out;
+    opacity: 0;
+    background-image: url(../images/fixed-btn-bg.png);
+    height: 14.8rem;
+    background-size: contain;
+    backdrop-filter: blur(1rem);
+    -webkit-backdrop-filter: blur(1rem);
+}
+.num-fix{
+    border-radius: 0.5rem;
+    width: 8.7rem;
+    height: 3rem;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--third-family);
+    font-size: 2.4rem;
+    border: 1px solid #000;
+    padding-top: 0.5rem;
+}
+.timer-name{
+    font-family: "Montserrat";
+font-weight: 400;
+font-size: 1rem;
+line-height: 180%;
+text-align: center;
+color: #7d7d7d;
+text-transform: lowercase;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: visible;
+    z-index: -1;
+    opacity: 0;
+}
+.modal.show {
+    visibility: visible;
+    z-index: 10;
+    opacity: 1;
+}
+
+.modal-window {
+position: relative;
+z-index: 2;
+width: 37rem;
+height: 69rem;
+background-image: url(../images/modal-bg.png);
+background-repeat: no-repeat;
+background-size: cover;
+border-radius: 4rem;
+display: flex;
+flex-direction: column;
+}
+
+.btn-close {
+    position: absolute;
+    right: 25px;
+    top: 20px;
+    background: none;
+    border: none;
+    color: #fff;
+    font-family: var(--content-font);
+    font-size: 15px;
+    opacity: 0.7;
+}
+.btn-close:hover {
+    opacity: 1;
+}
+
+.modal .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    opacity: 0.7;
+    z-index: 0;
+}
+
+.modal h2 {
+    text-transform: uppercase;
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 3.8rem;
+    text-align: center;
+    line-height: 100%;
+    margin-top: 3rem;
+    position: relative;
+}
+.modal .form {
+    margin-top: 2rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+    .modal-p {
+        font-size: 1.5rem;
+        font-family: var(--font-family);
+        font-weight: 400;
+        color: #fff;
+        text-align: center !important;
+        margin-bottom: 0px;
+        text-align: left;
+        margin-bottom: 0px;
+        position: relative;
+        margin-top: 1rem;
+    }
+    .modal input{
+        width: 32.3rem;
+        height: 6rem;
+        border: 1px solid #98adc2;
+        background: #6e8397;
+        border-radius: 1rem;
+        margin-bottom: 0.5rem;
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 1.4rem;
+        line-height: 129%;
+        text-align: center;
+        color: #fff;
+    }
+    .modal input::-webkit-input-placeholder{
+        color: #fff;
+    }
+    .modal option{
+        font-size: 20px;
+    }
+    .modal .form-btn{
+        background:  linear-gradient(201deg, #fff2af 0%, #efd4a0 100%);
+    border-radius: 15rem;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    padding: 3.1rem 5rem;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 100%;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #4d4837;
+    cursor: pointer;
+    margin-top: 1.6rem;
+    }
+.modal .text {
+    align-items: center;
+
+}
+
+.modal .content-block{
+    display: none;
+}
+.modal .price-wrap {
+    display: flex;
+    justify-content: space-around;
+}
+.modal .bottom-wrap{
+    position: relative;
+    z-index: 0;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.modal .bottom-wrap p{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 1rem;
+line-height: 120%;
+color: #fff;
+}
+
+.modal .price-wrap .current {
+    font-size: 80px;
+    line-height: 70px;
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    color: #ffff;
+}
+
+.modal .price-wrap .old p:nth-child(1) {
+    position: relative;
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 49px;
+    line-height: 44px;
+    color: #4F4F4F;
+    margin-bottom: 0px;
+}
+#optionSelect{
+    background: rgb(105, 105, 105);
+    width: 200px;
+    height: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    border: rgb(107, 106, 106);
+    color: #ffff;
+    appearance: none; /* Убираем стандартную стрелку */
+    background-image: url('data:image/svg+xml;utf8,<svg fill="white" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M5.516 7.548L10 12.032l4.484-4.484a.625.625 0 1 1 .884.884l-4.927 4.927a.625.625 0 0 1-.884 0L4.632 8.432a.625.625 0 1 1 .884-.884z"/></svg>'); 
+    background-repeat: no-repeat;
+    background-position: right 10px center; /* Двигаем стрелку вправо */
+    background-size: 12px;
+    padding-right: 30px; /* Делаем отступ справа для текста */
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.modal .price-wrap .old p:nth-child(1):before {
+    content: '';
+    position: absolute;
+    top: 15px;
+    right: -4px;
+    width: 110%;
+    border: 1px solid #4F4F4F;
+    transform: rotate(-21.43deg);
+}
+.modal .price-wrap .old p:nth-child(2) {
+    font-size: 12px;
+    line-height: 15px;
+    color: #4F4F4F;
+    margin-bottom: 20px;
+}
+
+.modal-price-wrap{
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+.modal-price-new{
+    width: 15.8rem;
+    height: 5.6rem;
+    background-image: url(../images/modal-new.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 5.5rem;
+    line-height: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #4d4837;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal-price-old{
+height: 5.6rem;
+width: 14.54rem;
+background-image: url(../images/modal-old.png);
+background-repeat: no-repeat;
+background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 4rem;
+line-height: 45%;
+text-transform: uppercase;
+text-decoration: line-through;
+text-align: center;
+color: #fff;
+position: relative;
+}
+.modal-price-old::before{
+    content: "";
+    width: 5.5rem;
+    height: 0rem;
+    border: 1px solid #fff;
+    position: absolute;
+}

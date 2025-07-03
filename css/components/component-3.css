@@ -1,0 +1,129 @@
+.c3{
+
+}
+.c3-wrapper{
+    background-image: url(../../images/c3-bg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 79.3rem;
+    padding: 23.6rem 3rem 3rem 3rem;
+    margin-top: 4rem;
+}
+.c3-wrap{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.c3-item{
+    display: flex;
+    align-items: center;
+    gap: 1.4rem;
+}
+.c3-item-icon{
+border: 1px solid #0d826d;
+border-radius: 1rem;
+width: 5rem;
+height: 5rem;
+background: #006754;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.c3-item p{
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 112%;
+color: #fff;
+}
+
+
+.c3-2{
+
+}
+.c3-2-box{
+    width: 37.9rem;
+    height: 21rem;
+    background-image: url(../../images/c3-2-bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 4.2rem 0rem 4.2rem 2.2rem;
+    margin-top: 5rem;
+}
+.c3-2-box h2{
+    font-family: var(--font-family);
+font-weight: 300;
+font-size: 1.7rem;
+line-height: 118%;
+text-transform: uppercase;
+color: #fff5c2;
+}
+.c3-2-box p{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 1.6rem;
+line-height: 112%;
+color: #fff;
+margin-top: 1rem;
+}
+.c3-2-wrapper{
+    margin-top: 5rem;
+}
+.c3-2-wrapper h2{
+    font-family: var(--font-family);
+font-weight: 300;
+font-size: 3rem;
+line-height: 140%;
+text-transform: uppercase;
+text-align: center;
+color: #fff;
+}
+.c3-2-wrap{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin-top: 4rem;
+}
+.c3-2-wrap:nth-child(2){
+    gap: 2rem;
+}
+.c3-2-item{
+ display: flex;
+ gap: 1rem;
+}
+.c3-2-item img{
+    width: 2.7rem;
+    height: 2.7rem;
+}
+.c3-2-item p{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 1.6rem;
+line-height: 112%;
+color: #fff;
+}
+.c3-2-bottom{
+    width: 37.9rem;
+    height: 16rem;
+    background-image: url(../../images/c3-2-bottom.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 3.2rem 2.7rem 3.6rem 12.2rem;
+    margin-top: 5rem;
+}
+.c3-2-bottom h2{
+font-family: var(--font-family);
+font-weight: 300;
+font-size: 3rem;
+line-height: 73%;
+text-transform: uppercase;
+color: #fff5c2;
+}
+.c3-2-bottom p{
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 1.6rem;
+line-height: 112%;
+color: #fff;
+margin-top: 2rem;
+}

@@ -1,0 +1,41 @@
+.c2 {
+padding-top: 2rem;
+padding-bottom: 4.4rem;
+}
+.c2-info{
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    padding-left: 1.4rem;
+    margin-bottom: 10rem;
+}
+.c2-info p{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 1.6rem;
+line-height: 112%;
+color: #fff;
+
+}
+.c2-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+    margin-top: 5.3rem;
+}
+.c2-wrap{
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+}
+.c2-wrap p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 112%;
+    padding-top: 0.7rem;
+}
+.c2-wrap img{
+    width: 9.8rem;
+    height: 6.4rem;
+}

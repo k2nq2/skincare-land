@@ -1,0 +1,78 @@
+.c5{
+
+}
+.c5-vid-wrap{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+.c5-vid-wrap p{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 1.6rem;
+line-height: 112%;
+letter-spacing: 0.08em;
+text-transform: uppercase;
+text-align: center;
+color: #888;
+}
+.c5-text{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 1.6rem;
+line-height: 112%;
+text-align: center;
+color: #fff;
+}
+.c5-vid{
+    width: 38rem;
+    height: 24.1rem;
+    background: #d9d9d9;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+    margin-bottom: 10rem;
+}
+.c5-vid-circle{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 100%;
+    background: #0d826d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0.7rem;
+}
+.c5-sert-wrap{
+    width: 100%;
+    height: 49.5rem;
+    background-image: url(../../images/c5-bg.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 35.9rem 9rem 0 8.8rem;
+    margin-top: 4rem;
+}
+.c5-sert-wrap div{
+    display: flex;
+    gap: 1rem;
+}
+.c5-sert-wrap div img{
+    width: 2.7rem;
+    height: 2.7rem;
+}
+.c5-sert-wrap div p{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 1.6rem;
+line-height: 112%;
+color: #fff;
+}
